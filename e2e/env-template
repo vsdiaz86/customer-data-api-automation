@@ -1,0 +1,18 @@
+
+# Base URL to be used in tests
+BASE_URL=http://localhost:4200/notes
+
+# false for headless, true for headed
+SHOW_BROWSER=false                         
+
+# 'chromium' or 'firefox'
+BROWSER='chromium'                         
+
+# Language
+LANG=en
+
+# Enable console debug print
+DEBUG=false
+
+# Default sleep time
+DEFAULT_SLEEP=5000

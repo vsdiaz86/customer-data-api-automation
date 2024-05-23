@@ -1,0 +1,39 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "description": "E2E test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@reportportal/agent-js-codecept": "^0.2.4",
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "codeceptjs": "^3.5.4",
+    "codeceptjs-resemblehelper": "^1.9.5",
+    "configcat-node": "^6.6.0",
+    "dateformat": "^4.5.1",
+    "faker": "^5.5.3",
+    "form-data": "^4.0.0",
+    "local-storage": "^2.0.0",
+    "node-scp": "0.0.17",
+    "npx": "^10.2.2",
+    "playwright": "^1.38.0",
+    "semver": "^7.3.5",
+    "webdriverio": "^7.16.13"
+  },
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@types/node": "14.14.14",
+    "@wdio/cli": "^7.16.13",
+    "@wdio/selenium-standalone-service": "^7.16.13",
+    "allure-commandline": "^2.13.8",
+    "chromedriver": "^97.0.0",
+    "dotenv": "^8.6.0",
+    "dotenv-parse-variables": "^1.0.1",
+    "mocha": "^9.1.3",
+    "ts-node": "9.1.1"
+  }
+}
